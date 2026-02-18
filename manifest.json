@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Intern Hunter AI",
+  "version": "1.2",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://generativelanguage.googleapis.com/*",
+    "https://script.google.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
